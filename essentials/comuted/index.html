@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Vue Exercise</title>
+    <meta charset="utf-8">
+    <script src="http://unpkg.com/vue"></script>
+    <link rel="stylesheet" type="" href="http://davidtkatz.com/public_css/vue.css">
+</head>
+
+<body>
+    <div id="app">
+        <div>{{text}}</div>
+        <input v-model="text" placeholder="text...">
+        
+        <div>toLowercase: {{lowerCase()}}</div>
+    </div>
+
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                text: "HELLO WORLD"
+            },
+            computed: {
+                lowerCase() {
+                    return this.text.toLowerCase()
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
