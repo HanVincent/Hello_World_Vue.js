@@ -1,2 +1,5 @@
-# Vue.js-Simple-Projects
-Made some simple projects in Vue2 by following the tutorial video.
+# Vue Projects
+
+### Several apps for Vue2
+* Learning Vue.js ver 2
+* Following the tutorial videos on Udemy
