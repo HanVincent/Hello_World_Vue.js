@@ -1,4 +1,4 @@
-# Vue Projects
+# Vue Hello World Projects
 
 ### Several apps for Vue2
 * Learning Vue.js ver 2
